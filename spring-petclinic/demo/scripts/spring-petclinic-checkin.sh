@@ -3,8 +3,8 @@
 ########################
 # include the magic
 ########################
-. demo-magic.sh
-
+MYDIR="$(dirname "$(which "$0")")"
+. $MYDIR/demo-magic.sh
 
 ########################
 # Configure the options
@@ -13,6 +13,13 @@
 #
 # speed at which to simulate typing. bigger num = faster
 #
-TYPE_SPEED=12
+TYPE_SPEED=15
 
-p "git commit -am \"Hello everyone\""
+# hide the evidence
+clear
+
+pe "git status "
+pe "git status "
+pe "git add spring-petclinic/src/main/resources/messages/messages.properties"
+pe "git commit -m \"Hello Everyone - Enjoy the demo!\""
+pe "git push origin master"
