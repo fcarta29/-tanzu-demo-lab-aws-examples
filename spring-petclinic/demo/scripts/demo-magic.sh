@@ -180,7 +180,7 @@ function check_pv() {
     echo ""
     echo -e "${BLUE}Mac:${COLOR_RESET} $ brew install pv"
     echo ""
-    echo -e "${BLUE}Other:${COLOR_RESET} http://www.ivarch.com/programs/pv.shtml"
+    echo -e "${BLUE}Other:${COLOR_RESET} https://www.ivarch.com/programs/pv.shtml"
     echo -e "${COLOR_RESET}"
     exit 1;
   }
