@@ -20,6 +20,6 @@ clear
 
 pe "git status "
 pe "git status "
-pe "git add src/main/resources/messages/messages.properties"
+pei "git add src/main/resources/messages/messages.properties"
 pe "git commit -m \"Hello Everyone - Enjoy the demo!\""
 pe "git push origin spring-petclinic-demo"
