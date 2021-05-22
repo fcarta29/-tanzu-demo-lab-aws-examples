@@ -7,4 +7,4 @@ commonAnnotations:
   buildTag: jenkins-spring-petclinic-release-601
 images:
 - name: harbor.tanzu.frankcarta.com/apps/spring-petclinic-application
-  digest: sha256:7707074b5432349a86b426d8fe699cae337c4b7d1d778dfb14f88f0895e22332
+  digest: sha256:86215fc5bcca66cc746ad385ba20744c1db5baff7a085796a87980512e917bc0
