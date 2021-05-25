@@ -13,4 +13,4 @@ spec:
     conditions:
     - prefix: /
   virtualhost:
-    fqdn: spring-petclinic.tanzu.frankcarta.com
+    fqdn: spring-petclinic.demo.frankcarta.com
