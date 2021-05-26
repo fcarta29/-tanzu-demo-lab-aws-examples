@@ -1,0 +1,10 @@
+#@ load("@ytt:data", "data")
+
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: spring-petclinic
+resources:
+  - ../../base
+images:
+- name: harbor.tanzu.frankcarta.com/apps/spring-petclinic-application
+  digest: #@ data.values.digest

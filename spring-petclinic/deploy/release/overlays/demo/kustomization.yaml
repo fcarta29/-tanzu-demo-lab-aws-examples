@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: spring-petclinic
+resources:
+- ../../base
+commonAnnotations:
+  buildTag: jenkins-spring-petclinic-release-601
+images:
+- name: harbor.tanzu.frankcarta.com/apps/spring-petclinic-application
+  digest: sha256:86215fc5bcca66cc746ad385ba20744c1db5baff7a085796a87980512e917bc0
