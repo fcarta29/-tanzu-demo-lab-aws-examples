@@ -20,7 +20,7 @@ spec:
   serviceAccount: spring-petclinic-service-account
   tag:  harbor.tanzu.frankcarta.com/builders/spring-petclinic-builder
   stack:
-    name: full
+    name: base
     kind: ClusterStack
   store:
     name: default
