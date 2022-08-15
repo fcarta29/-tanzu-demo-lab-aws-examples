@@ -5,4 +5,4 @@ resources:
 - ../../base
 images:
 - name: harbor.tanzu.frankcarta.com/apps/spring-petclinic-application
-  digest: sha256:efbac87b67861cddec7cafab5783094f2309a0361c11a10369a84f2494ff28bb
+  digest: sha256:52753eeaa7f1b003e3ae87b40437cc7dda59adb8d3830970233d09542c0e9c4f
